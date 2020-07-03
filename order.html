@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="F:\Beer_Store\style\style.css" />
+    <link rel="stylesheet" href="F:\Beer_Store\style\form.css" />
+    <title>Beer store</title>
+</head>
+<body>
+<nav>
+    <div class="topnav">
+        <a class="logo" href="F:\Beer_Store\index.html"><img src="F:\Beer_Store\images\logo.png"></a>
+        <a href="F:\Beer_Store\index.html">Home</a>
+        <a href=F:\Beer_Store\all-beers.html>See All Beers</a>
+        <a class="active" href=F:\Beer_Store\order.html>Order a Beer</a>
+        <a class="right" href=F:\Beer_Store\register.html>Register</a>
+        <a class="right" href=F:\Beer_Store\login.html>Log in</a>
+    </div>
+</nav>
+
+<main>
+    <center>
+        <h1>Order a Beer</h1>
+        <br />
+        <form>
+            <label>Brand</label>
+            <select>
+                <option selected disabled>Select a brand</option>
+                <option>Corona Extra 360ml</option>
+                <option>Carlsberg 500ml</option>
+                <option>Stella Artois 500ml</option>
+                <option>Heineken 330ml</option>
+            </select>
+            <label>Quantity</label>
+            <input type="number" min="1" max="15" placeholder="Enter amount of beers (1-15)">
+            <label>Destination</label>
+            <select>
+                <option selected disabled>Select a destination</option>
+                <option>corona</option>
+                <option>carlsberg</option>
+                <option>stella</option>
+                <option>HelnekenS</option>
+            </select>
+            <label>Enter your birthdate</label>
+            <input type="date">
+            <label>Got an opinion, comment, recommendation? Share it with us!</label>
+            <textarea rows="10" placeholder="Share your opinion with us!"></textarea>
+            <input type="submit" value="Order">
+        </form>
+    </center>
+</main>
+
+<footer>
+    <hr />
+    <p><em>&copy; 2020 &ndash; Beer Store</em></p>
+</footer>
+</body>
+</html>
